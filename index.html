@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posting system | Samir K</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="user-input-box">
+            <input id="user-input" type="text" placeholder="Whats on your mind?" style="overflow-wrap: break-word;">
+            <button id="post-btn">Post</button>
+            <h6 id="total-characters" style="position: absolute; bottom: 445px;">Total characters: 0/250</h6>
+        </div>
+        <div id="text-warning" class="warnings-div">
+            <h3 id="warnings" class="warnings"></h3>
+        </div>
+        <div class="user-posts">
+            <h2>Community</h2>
+            <div id="posts" class="posts"></div>
+            <hr class="hr">
+            <h4 style="margin-top: 3px;">Created by Samir Kharel &copy; 2024</h4>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
